@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="130dp"
+        android:onClick="adicionar1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num2"
+        android:layout_alignBottom="@+id/num2"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/num2"
+        android:onClick="adicionar3"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num1"
+        android:layout_alignBottom="@+id/num1"
+        android:layout_marginLeft="31dp"
+        android:layout_toRightOf="@+id/num1"
+        android:onClick="adicionar2"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/num4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/num1"
+        android:layout_below="@+id/num1"
+        android:layout_marginTop="27dp"
+        android:onClick="adicionar4"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/num5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num4"
+        android:layout_alignBottom="@+id/num4"
+        android:layout_alignLeft="@+id/num2"
+        android:onClick="adicionar5"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/num7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/num4"
+        android:layout_below="@+id/num6"
+        android:layout_marginTop="26dp"
+        android:onClick="adicionar7"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/num9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num8"
+        android:layout_alignBottom="@+id/num8"
+        android:layout_alignLeft="@+id/num6"
+        android:onClick="adicionar9"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/num8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num7"
+        android:layout_alignBottom="@+id/num7"
+        android:layout_toLeftOf="@+id/num3"
+        android:onClick="adicionar8"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/num0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num8"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/num3"
+        android:onClick="adicionar0"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/num6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num5"
+        android:layout_alignBottom="@+id/num5"
+        android:layout_alignLeft="@+id/num3"
+        android:onClick="adicionar6"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/soma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num0"
+        android:layout_alignParentRight="true"
+        android:onClick="somar"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num0"
+        android:layout_alignBottom="@+id/num0"
+        android:layout_alignParentRight="true"
+        android:onClick="somar"
+        android:text="=" />
+
+</RelativeLayout>
