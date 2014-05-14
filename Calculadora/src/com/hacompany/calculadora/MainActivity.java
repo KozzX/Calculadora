@@ -21,7 +21,8 @@ public class MainActivity extends Activity{
 		setContentView(R.layout.main_layout);
 		
 	}
-	public void adicionar(View view){
+	//----Teste para usar somente uma função-----
+	/*public void adicionar(View view){
 		Button bt1 = (Button) findViewById(R.id.num1);
 		Button bt2 = (Button) findViewById(R.id.num2);
 		Button bt3 = (Button) findViewById(R.id.num3);
@@ -34,7 +35,7 @@ public class MainActivity extends Activity{
 		Button bt0 = (Button) findViewById(R.id.num0);
 		
 		
-	}
+	}*/
 	
 	public void adicionar1(View view){
 		TextView texto = (TextView) findViewById(R.id.textView1);
